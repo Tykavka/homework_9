@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,&display=swap);
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: skyblue;
+	background-color: slategray;
+}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.content {
+	padding-left: 15px;
+}
+.description {
+	padding: 30px;
+	max-width: 1270px;
+	margin: 0 auto;
+}
+.description div:not(:last-child) {
+	margin-bottom: 50px;
+}
+p {
+	text-indent: 35px;
+	text-align: justify;
+}
+.icons-description, .design-el-desciption, .content-img-description {
+	margin-bottom: 30px;
+}
+.icons-image{
+	max-width: 830px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.icons-image div:not(:last-child) {
+	margin-bottom: 30px;
+}
+.icons-image img {
+	padding-right: 30px;
+	vertical-align: middle;
+}
+.social, .other-icons, .markers, .firms {
+	text-align: center;
+}
+.design-el-img img{
+	max-width: 100%;
+	text-align: center;
+	border-radius: 10px;
+}
+.design-el-img img:not(:last-child){
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.content-images-img {
+	text-align: center;
+	vertical-align: middle;
+}
+.content-images-img img:not(:last-child) {
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.content-images-img img{
+	max-width: 100%;
+	border-radius: 20px;
+}
+.icon::before {
+	content: '1) ';
+	color: blue;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+.design-el::before {
+	content: '2) ';
+	color: blue;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+.content-img::before {
+	content: '3) ';
+	color: blue;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
